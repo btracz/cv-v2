@@ -1,5 +1,5 @@
 import bwmap from "./backgrounds/map-circuit_rs_bw.jpg";
-import lille from "./backgrounds/lille.png";
+import lille from "./backgrounds/lille.jpg";
 import whiteabstract from "./backgrounds/white-abstract.png";
 import worldmap from "./backgrounds/map-circuit_rs_inv.jpg";
 

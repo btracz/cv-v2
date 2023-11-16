@@ -1,14 +1,17 @@
 /* eslint-disable no-undef */
 const express = require("express");
+const compression = require("compression");
 const router = express.Router();
 const app = express();
-const cors = require("cors");
+// const cors = require("cors");
 const axios = require("axios");
 const { sendContactMails } = require("./mailer.cjs");
 const port = process.env.PORT || 3000;
 
 //enabling cors
-app.use(cors());
+// app.use(cors());
+// compress all responses
+app.use(compression());
 
 //Parse data
 app.use(express.json());
