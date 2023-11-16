@@ -1,22 +1,28 @@
 {
-  "name": "shaquille",
+  "name": "cv-v2",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node ./src/backend/index.cjs"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.66.1",
     "@react-three/fiber": "^8.13.0",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "framer-motion": "^10.12.5",
     "maath": "^0.5.3",
+    "nodemailer": "^6.9.7",
+    "nodemailer-smtp-transport": "^2.7.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-router-dom": "^6.11.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",

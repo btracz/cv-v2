@@ -1,8 +1,8 @@
 import {
   frontend,
   backend,
-  ux,
-  prototyping,
+  leaderhip,
+  mentor,
   javascript,
   typescript,
   html,
@@ -12,259 +12,244 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
-} from '../assets';
+  sql,
+  mui,
+  mongo,
+  storybook,
+  skill_alexa,
+  whose_turn,
+  mootus,
+  hattrick_bot,
+  proxy_store,
+  atos,
+  sopra,
+  citc,
+  svsu,
+  hei,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "A propos",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projets",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: "Technical Leader",
+    icon: leaderhip,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: "Manager & Mentor",
+    icon: mentor,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Storybook",
+    icon: storybook,
+  },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+  {
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: "MongoDB",
+    icon: mongo,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
+    name: "Docker",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    title: "Tech Lead Frontend",
+    company_name: "Sopra Steria",
+    description:
+      "Développeur fullstack, Manager, Leader Technique, Référent Technique.",
+    icon: sopra,
+    date: "2012 - Aujourd'hui",
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    title: "Master Ingénieur Généraliste",
+    description:
+      "École d'ingénieur avec classes préparatoires intégrées, spécialité : Informatique et Technologies de l'Information.",
+    company_name: "Hautes Etudes d'Ingénieur (HEI)",
+    icon: hei,
+    date: "2007 - 2012",
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    title: "Semestre d'étude",
+    description: "Programme Undergraduate, spécialisation Computer Science.",
+    company_name: "Saginaw Valley State University",
+    icon: svsu,
+    date: "2012",
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    title: "Stagiaire Ingénieur R&D",
+    description:
+      "Création d'un prototype de terminal mobile (tablette tactile) d'assistance vendeur en surface de vente.",
+    company_name: "Atos Worldline",
+    icon: atos,
+    date: "2011",
+  },
+  {
+    title: "Stagiaire Ingénieur R&D",
+    description:
+      "Mise en place d'une architecture middleware RFID EPCglobal (Standard GS1).",
+    company_name: "Centre d'Innovation des Technologies sans Contact",
+    icon: citc,
+    date: "2011",
   },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
+    id: "mootus",
+    name: "Mootus",
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      "Jeu de Motus infini avec statistiques, inspiré de Wordle, Le Mot, Sutom...",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "React",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "Material UI",
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: mootus,
+    demo: "https://mootus.tracz.fr/",
   },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: "proxy-store",
+    name: "Proxy Store",
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Boutique générique "thématisable" permettant de lister et comparer des produits vendus sur Amazon',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "React",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "Tailwind CSS",
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: proxy_store,
+    wip: true,
+  },
+  {
+    id: "skill-alexa",
+    name: "Prochain Train",
+    description:
+      "Skill Alexa (non publiée) qui retourne les informations du prochain train passant dans la gare la plus proche.",
+    tags: [
+      {
+        name: "AWS",
+      },
+      {
+        name: "Node JS",
+      },
+    ],
+    image: skill_alexa,
+    private: true,
+  },
+  {
+    id: "hattrick-bot",
+    name: "Hattrick Scout",
+    description: `Bot Selenium qui parcourt une marketplace de joueurs de football dans un jeu de football fantasy à la recherche de bonnes affaires.`,
+    tags: [
+      {
+        name: "Node JS",
+      },
+      {
+        name: "Selenium",
+      },
+    ],
+    image: hattrick_bot,
+    private: true,
+  },
+  {
+    id: "whose-turn",
+    name: "Whose Turn",
+    description:
+      "Application de gestion des tournées de viennoiseries au bureau avec planning, sondage de présence et rappels.",
+    tags: [
+      {
+        name: "Node JS",
+      },
+      {
+        name: "Azure",
+      },
+      {
+        name: "JS",
+      },
+      {
+        name: "CSS",
+      },
+    ],
+    image: whose_turn,
+    private: true,
+    repo: "https://github.com/btracz/WhoseTurn",
   },
 ];
 
