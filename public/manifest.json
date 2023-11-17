@@ -1,0 +1,16 @@
+{
+  "name": "Benjamin TRACZ",
+  "short_name": "BTRACZ",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f4f6",
+  "description": "Benjamin TRACZ | Tech Lead / Fullstack JS Engineer",
+  "icons": [
+    {
+      "src": "logo-black.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": []
+}

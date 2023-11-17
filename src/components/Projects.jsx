@@ -92,6 +92,7 @@ const ProjectCard = ({
                 target="_blank"
                 rel="noreferrer"
                 className="link float-right"
+                aria-label="Voir la démo"
               >
                 Démo &rarr;
               </a>

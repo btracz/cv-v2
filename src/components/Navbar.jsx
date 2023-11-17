@@ -46,7 +46,12 @@ const Navbar = () => {
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a
+                href={`#${nav.id}`}
+                aria-label={`Redirection vers la section ${nav.title}`}
+              >
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>

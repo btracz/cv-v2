@@ -43,7 +43,11 @@ const About = () => {
         Vous êtes curieux d&apos;en découvrir un peu plus sur moi ? Vous êtes au
         bon endroit. Pour toute demande d&apos;information complémentaire ou si
         mon profil vous plaît, n&apos;hésitez pas à{" "}
-        <a className="link" href="#contact">
+        <a
+          className="link"
+          href="#contact"
+          aria-label="Redirection vers la section Contact"
+        >
           me contacter grâce au formulaire prévu à cet effet.
         </a>
         <h3>Qui suis-je ?</h3>
@@ -58,7 +62,11 @@ const About = () => {
         technologique étant mouvant, découvrir de nouvelles technologies ne
         m&apos;effraie pas, je sais aller chercher les informations là où elles
         se trouvent pour m&apos;adapter. Mes divers{" "}
-        <a className="link" href="#projects">
+        <a
+          className="link"
+          href="#projects"
+          aria-label="Redirection vers la section Projets"
+        >
           projets personnels
         </a>{" "}
         me permettent de me sensibiliser à de nouveaux frameworks ou
