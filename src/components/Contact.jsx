@@ -139,8 +139,7 @@ const Contact = () => {
             className="live-demo flex justify-center sm:gap-4 
             gap-3 sm:text-[20px] text-[16px] text-timberWolf 
             font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[250px] sm:h-[50px] 
-            w-[300px] h-[45px] rounded-[10px] bg-night 
+            whitespace-nowrap rounded-[10px] bg-night 
             hover:bg-battleGray hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out disabled:cursor-not-allowed"
             onMouseOver={() => {
