@@ -81,7 +81,7 @@ const Hero = () => {
                   repeat: Infinity,
                   repeatType: "loop",
                 }}
-                className="w-3 h-3 rounded-full bg-taupe mb-1"
+                className="w-3 h-3 rounded-full bg-taupe mb-1 scroll-indicator sm-fixed"
               />
             </div>
           </a>

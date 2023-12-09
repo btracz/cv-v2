@@ -10,14 +10,18 @@ const Tech = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="sm-fixed">
         <p className={styles.sectionSubTextLight}>Mes compétences techniques</p>
         <h2 className={styles.sectionHeadTextLight}>Technologies.</h2>
       </motion.div>
 
       <div className="flex flex-wrap justify-center gap-10 mt-14">
         {technologies.map((technology, idx) => (
-          <motion.div key={technology} variants={zoomIn(0.1 * idx, 0.5)}>
+          <motion.div
+            key={technology}
+            variants={zoomIn(0.1 * idx, 0.5)}
+            className="sm-fixed"
+          >
             <div className="w-28 h-28 mt-4 text-center" key={technology.name}>
               <span
                 onMouseEnter={() => setHoveringIndex(idx)}

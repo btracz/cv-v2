@@ -24,7 +24,7 @@ const ProjectCard = ({
       className={`relative ${
         active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
       } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`}
+      h-[420px] cursor-pointer card-shadow sm-fixed`}
       onClick={() => handleClick(id)}
     >
       <div
@@ -109,8 +109,8 @@ const Projects = () => {
 
   return (
     <div className="-mt-[6rem]">
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Réalisations personnelles</p>
+      <motion.div variants={textVariant()} className="sm-fixed">
+        <p className={`${styles.sectionSubText}`}>Réalisations personnelles</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projets.</h2>
       </motion.div>
 
@@ -131,7 +131,7 @@ const Projects = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col sm-fixed`}
       >
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {projects.map((project, index) => (

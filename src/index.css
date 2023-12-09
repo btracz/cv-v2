@@ -147,6 +147,21 @@
   #my-photo {
     height: 43vh;
   }
+  div:not(.scroll-indicator) {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  p,
+  h2,
+  .shadow-card,
+  .sm-fixed,
+  .tooltip,
+  img {
+    opacity: 1 !important;
+  }
 }
 
 a.link {

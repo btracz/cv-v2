@@ -8,7 +8,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card sm-fixed"
     >
       <div
         // eslint-disable-next-line react/no-unknown-property
@@ -31,7 +31,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <div className="-mt-[6rem]">
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="sm-fixed">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Bienvenue !</h2>
       </motion.div>
